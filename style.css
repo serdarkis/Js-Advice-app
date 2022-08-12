@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #40434a;
+}
+
+
+.outline{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: rgba( 47, 49, 54, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    
+
+    /* background: #2f3136; */
+     border-radius: 8px; 
+
+    
+}
+
+.inline{
+    display:inline-flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 500px;
+    background: rgba( 47, 49, 54, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.line-and-shape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-1{
+    background-color: #41444B;
+    border: 1px solid #41444B;
+    width: 100px;
+    bottom: 10px;
+    margin: 10px;
+    padding-right: 60px;
+}
+
+
+.advice{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+
+.refresh{
+    position: fixed;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    background-image: url(images/plus-circle.svg);
+    background-size: cover;
+    border-radius: 50%;
+    border-style: hidden;
+    /* opacity: 0.8;
+    background-color: #2f3136; */
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+
+
+    background-color: rgba( 47, 49, 54, 0.7 );
+/* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+/*border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+    
+
+}
+.refresh:hover{
+    background-color: #2f3136;
+
+}
+
+.advice-text{
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gitlink{
+    text-decoration:none;
+    color: white;
+}
+
+.credit{
+    color: white;
+}
+.gitlink:hover{
+    text-decoration:underline;
+}
+
+#head{
+    font-size: 40px;
+    margin: 60px;
+    color: aliceblue;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px rgba( 47, 49, 54, 0.7 ),
+      0 0 21px rgba( 47, 49, 54, 0.7 ),
+      0 0 42px rgba( 47, 49, 54, 0.7 ),
+      0 0 82px rgba( 47, 49, 54, 0.7 ),
+      0 0 92px rgba( 47, 49, 54, 0.7 );
+
+}

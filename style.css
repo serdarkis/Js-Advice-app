@@ -25,9 +25,6 @@ body{
     backdrop-filter: blur( 0px );
     -webkit-backdrop-filter: blur( 0px );
     border: 1px solid rgba(0, 0, 0, 0.18);
-    
-
-    /* background: #2f3136; */
      border-radius: 8px; 
 
     
@@ -47,7 +44,7 @@ body{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-.line-and-shape{
+.line{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,17 +82,11 @@ body{
     background-size: cover;
     border-radius: 50%;
     border-style: hidden;
-    /* opacity: 0.8;
-    background-color: #2f3136; */
     cursor: pointer;
     transition: .2s all ease-in-out;
-
-
     background-color: rgba( 47, 49, 54, 0.7 );
-/* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-backdrop-filter: blur( 0px );
--webkit-backdrop-filter: blur( 0px );
-/*border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
     
 
 }
